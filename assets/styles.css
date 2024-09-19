@@ -146,4 +146,44 @@ h1 {
 a {
     text-decoration: none;
 }
+
+@media (max-width: 800px) {
+  .container__main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 0 0 2rem 0;
+  }
+
+  .image__panel {
+    padding: 4rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image__panel img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .scroll-container {
+    width: 100%;
+    margin-bottom: .4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+  }
+
+
+  p {
+    font-size: .75rem;
+  }
+}
   
